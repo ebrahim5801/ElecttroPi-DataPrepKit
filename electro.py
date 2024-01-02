@@ -20,7 +20,7 @@ class ElectroPi:
         # Find categorical columns 
         categoricalColumns = df.select_dtypes(include=['object']).columns.tolist()
         return pd.get_dummies(df[categoricalColumns])  
- 
+
     # option:
     # 1 = delete missing values
     # 2 = replace with value
