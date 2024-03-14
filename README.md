@@ -1,5 +1,4 @@
 # ElecttroPi DataPrepKit
-## Python programing foundation
 
 
 ## Project Description
